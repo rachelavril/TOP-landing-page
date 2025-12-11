@@ -58,3 +58,9 @@ button, .first-button {
     border-style: none;
     border-radius: 6px;
 }
+
+.placeholder {
+    color: #E5E7EB;
+    background-color: #808080;
+    padding: 3rem;
+}
