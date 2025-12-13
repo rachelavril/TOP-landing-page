@@ -2,6 +2,8 @@
   box-sizing: border-box;
 }
 
+/* [1] Font used: Roboto (project requirement) */
+
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
@@ -12,23 +14,31 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 4rem;
+  padding-block-start: 1rem;
+  padding-inline: 5.5rem;
 }
+
+/* [2] dark background color #1f2937 (proj req) */
 
 .navy-bg {
   background-color: #1f2937;
 }
 
 header {
-  display: flex; 
+  display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
+/* [5] hero logo text - 24px #f9faf9 (proj req) */
 
 .header-logo {
   font-size: 24px;
   color: #f9faf8;
   margin: 0;
 }
+
+/* [4] header link text - 18px #e5e7eb (proj req) */
 
 .header-links,
 a {
@@ -48,6 +58,8 @@ a:active {
   color: #66d2f0;
 }
 
+/* [3] hero main text "this website is awesome" - 48px #f9faf8 weight:900 (proj req) */
+
 .hero-main-text {
   font-size: 48px;
   color: #f9faf8;
@@ -56,6 +68,8 @@ a:active {
   padding: 0;
 }
 
+/* [4] hero secondary text - 18px #e5e7eb (proj req) */
+
 .hero-secondary-text {
   font-size: 18px;
   color: #e5e7eb;
@@ -63,12 +77,15 @@ a:active {
   padding: 0;
 }
 
+/* [6] button color #3883f6 */
+
 button,
 .first-button {
   max-width: fit-content;
+  font-size: 18px;
   background-color: #3882f6;
   color: #e5e7eb;
-  padding: 5px 20px;
+  padding: .5rem 2rem;
   border-style: none;
   border-radius: 6px;
 }
@@ -86,7 +103,7 @@ button,
   display: flex;
   justify-content: space-between;
   margin-block: 1rem;
-  padding-block: 5rem;
+  padding-block: 7rem;
 }
 
 .left-container {
@@ -96,29 +113,32 @@ button,
   gap: 1rem;
 }
 
+/* [7] information header text - 36px #1f2937 weight:900 (proj req) */
+
 .main-header {
-    text-align: center;
-    color: #1F2937;
-    font-size: 36px;
+  text-align: center;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
 }
 
 .illustration-placeholder {
-    border: Solid 3px #3882f6;
-    width: 150px;
-    height: 150px;
-    border-radius: 10px;
+  border: Solid 4px #3882f6;
+  width: 160px;
+  height: 160px;
+  border-radius: 10px;
 }
 
 .item-wrapper {
-    display: flex;
-    justify-content: center;
-    gap: 3rem
+  display: flex;
+  justify-content: center;
+  gap: 3.5rem;
 }
 
 .info-item {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    max-width: 150px;
-    text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  text-align: center;
 }
