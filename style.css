@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-    font-size: 14px;
-}
-
 body {
   font-family: "Roboto", Arial, Helvetica, sans-serif;
   margin: 0;
@@ -111,19 +107,18 @@ button,
     width: 150px;
     height: 150px;
     border-radius: 10px;
-    display: flex;
 }
 
-.placeholder-wrapper {
+.item-wrapper {
     display: flex;
     justify-content: center;
-    gap: 4rem;
+    gap: 3rem
 }
 
-.subtext-wrapper {
+.info-item {
     display: flex;
-    justify-content: center;
-    gap: 6rem;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
     text-align: center;
-    color: #808080
 }
