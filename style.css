@@ -85,7 +85,7 @@ button,
   font-size: 18px;
   background-color: #3882f6;
   color: #e5e7eb;
-  padding: .5rem 2rem;
+  padding: 0.5rem 2rem;
   border-style: none;
   border-radius: 6px;
 }
@@ -133,6 +133,7 @@ button,
   display: flex;
   justify-content: center;
   gap: 3.5rem;
+  margin-block-end: 5rem;
 }
 
 .info-item {
@@ -142,3 +143,34 @@ button,
   max-width: 150px;
   text-align: center;
 }
+
+/* [8] quote section background color - #e5e7eb (proj req) */
+
+.quote-section {
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote-wrapper {
+  padding-block: 3rem;
+}
+
+
+/* [9] quote text - 36px #1f2937 weight:300 (proj req) */
+
+.quote-text {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  inline-size: 49rem;
+  block-size: 10rem;
+  margin-block-end: 0;
+}
+
+.quote-source {
+  text-align: end;
+}
+
