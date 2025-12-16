@@ -79,7 +79,6 @@ a:active {
 
 /* [6] button color #3883f6 */
 
-button,
 .first-button {
   max-width: fit-content;
   font-size: 18px;
@@ -174,3 +173,30 @@ button,
   text-align: end;
 }
 
+.action-section {
+  background-color: #3882f6;
+  margin: 5rem 20rem;
+  padding: 1rem .5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#e5e7eb;
+  gap: 10rem;
+  border-radius: 4px;
+}
+
+.second-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: 2px solid #e5e7eb;
+  border-radius: 4px;
+  width: 100px;
+  height: 30px;
+}
+
+footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  text-align: center;
+  padding: 2rem;
+}
